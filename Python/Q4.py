@@ -7,5 +7,5 @@ def normal_eq(x,y):
   theta=np.dot(temp2,y)
   return theta
 x=np.random.normal(size=(20,20))
-y=np.random.rand(20,1)
+y=np.array(np.random.randn(20,1),dtype='int32')
 print(normal_eq(x,y))
